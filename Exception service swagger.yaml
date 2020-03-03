@@ -1,0 +1,29 @@
+# Example YAML to get you started quickly.
+# Be aware that YAML has indentation based coping.
+# Code completion support is available so start typing for available options.
+swagger: '2.0'
+
+# This is your document metadata
+info:
+  version: "0.0.1"
+  title: Exception service
+  description: |
+    This is a test of the exception service.
+
+host:
+  layernetware-eval-test.apigee.net
+
+schemes:
+  - https
+
+paths:
+  /exception-service:
+    get:
+      description: View a sample response.
+      summary: View a sample response
+      operationId: View a sample response
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Success

@@ -1,0 +1,7 @@
+https://docs.apigee.comapi-platformsamplesmock-target-api
+
+https://layernetware-eval-test.apigee.net/exception-service
+
+https://apigee.com/platform/layernetware-eval/proxies/Exception-service/overview/3
+
+https://layernetware-eval-temportal.apigee.io/docs/exceptionservice/1/routes/exception-service/get

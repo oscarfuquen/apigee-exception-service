@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="Exception-service">
+    <Basepaths>/exception-service</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1583198778499</CreatedAt>
+    <CreatedBy>layernetware@gmail.com</CreatedBy>
+    <Description>This is a test of the exception service.
+</Description>
+    <DisplayName>Exception-service</DisplayName>
+    <LastModifiedAt>1583198778499</LastModifiedAt>
+    <LastModifiedBy>layernetware@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8dbdab827bbef3ee54ac3c416cf3f5fe12d68aafd018c4fd1cad0d22d228254b8f7152802bc77774ad2e2794f2d0dfe90518828b1b1f92f5fa53426a7091b5b3</ManifestVersion>
+    <Policies>
+        <Policy>impose-quota</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
